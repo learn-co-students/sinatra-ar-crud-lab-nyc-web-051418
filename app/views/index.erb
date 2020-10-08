@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h1>Posts</h1>
+    <% @posts.each do |info| %>
+      <li><%= info.name %>: <%= info.content %></li>
+    <% end %>
+  </body>
+</html>
